@@ -1,6 +1,6 @@
 import { Module } from '@nestjs/common';
-import { PrismaModule } from 'src/prisma/prisma.module';
 
+import { PrismaModule } from '../prisma/prisma.module';
 import { RepositoryPrisma } from './repository/implementations/prisma.repository';
 import { CreateGroupController } from './useCases/createGroup/create-group.controller';
 import { CreateGroupService } from './useCases/createGroup/create-group.service';
@@ -30,5 +30,6 @@ import { UpdateGroupService } from './useCases/updateGroup/update-group.service'
     RepositoryPrisma,
   ],
   imports: [PrismaModule],
+  exports: [FindGroupByIdService],
 })
 export class GroupModule {}

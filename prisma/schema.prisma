@@ -15,5 +15,17 @@ model Group {
   name        String @unique()
   description String
 
+  userId Users[]
   @@map("groups")
+}
+
+model Users {
+  id        String  @id @default(uuid())
+  accountId String? @unique() @default(uuid())
+  firstName String
+  lastName  String
+  email     String  @unique()
+
+  Group   Group?  @relation(fields: [groupId], references: [id])
+  groupId String?
 }

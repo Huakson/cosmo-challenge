@@ -1,1 +1,0 @@
-{"version":3,"file":"create-group.dto.js","sourceRoot":"","sources":["../../../../src/group/create-group/DTOs/create-group.dto.ts"],"names":[],"mappings":";;;AAAA,+BAA0B;AAE1B,MAAa,cAAc;IAKzB;QACE,IAAI,CAAC,IAAI,CAAC,EAAE,EAAE;YACZ,IAAI,CAAC,EAAE,GAAG,IAAA,SAAE,GAAE,CAAC;SAChB;IACH,CAAC;CACF;AAVD,wCAUC"}

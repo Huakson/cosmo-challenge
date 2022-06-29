@@ -1,8 +1,8 @@
 /* eslint-disable import/no-extraneous-dependencies */
 import { Test } from '@nestjs/testing';
-import { GroupUpdate } from 'src/group/entities/group-update';
 
 import { PrismaModule } from '../../../../prisma/prisma.module';
+import { GroupUpdate } from '../../../entities/group-update';
 import { Group } from '../../../entities/group.entitie';
 import { RepositoryPrisma } from '../../../repository/implementations/prisma.repository';
 import { FindGroupByNameService } from '../../findGroupByName/find-group-by-name.service';
