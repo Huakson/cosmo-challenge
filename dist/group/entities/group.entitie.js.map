@@ -1,0 +1,1 @@
+{"version":3,"file":"group.entitie.js","sourceRoot":"","sources":["../../../src/group/entities/group.entitie.ts"],"names":[],"mappings":";;;AAAA,+BAA0B;AAE1B,MAAa,KAAK;IAKhB,YAAY,KAAwB,EAAE,EAAW;QAC/C,MAAM,CAAC,MAAM,CAAC,IAAI,EAAE,KAAK,CAAC,CAAC;QAE3B,IAAI,CAAC,EAAE,EAAE;YACP,IAAI,CAAC,EAAE,GAAG,IAAA,SAAE,GAAE,CAAC;SAChB;IACH,CAAC;CACF;AAZD,sBAYC"}
