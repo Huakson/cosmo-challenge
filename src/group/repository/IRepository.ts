@@ -6,4 +6,5 @@ export interface IRepository {
   findByName(name: string): Promise<Group>;
   update(data: GroupUpdate): Promise<Group>;
   findAll(): Promise<Group[]>;
+  findById(groupId): Promise<Group>;
 }

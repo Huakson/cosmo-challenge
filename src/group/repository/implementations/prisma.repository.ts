@@ -48,4 +48,12 @@ export class RepositoryPrisma implements IRepository {
   async findAll(): Promise<Group[]> {
     return this.prisma.group.findMany();
   }
+
+  async findById(groupId: any): Promise<Group> {
+    return this.prisma.group.findUnique({
+      where: {
+        id: groupId,
+      },
+    });
+  }
 }
